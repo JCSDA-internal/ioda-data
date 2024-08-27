@@ -7,7 +7,7 @@
 # IODA Test Files
 ################################################################################
 
-cmake_minimum_required( VERSION 3.3.2 FATAL_ERROR )
+cmake_minimum_required( VERSION 3.12 )
 
 project( ioda_data VERSION 2.9.0 DESCRIPTION "IODA Test Files" )
 
