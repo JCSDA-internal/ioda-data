@@ -35,6 +35,7 @@ jobs:
         env:
           LFS_BUCKET_AND_PATH: jcsda-usaf-ci-build-cache/lfs
         run: |
+          set -e
           export repository_name=$(basename $(pwd))
           echo "Prep repo ${repository_name} for upload"
           git fetch --all
