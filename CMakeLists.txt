@@ -3,7 +3,7 @@
 # This software is licensed under the terms of the Apache Licence Version 2.0
 # which can be obtained at http://www.apache.org/licenses/LICENSE-2.0.
 cmake_minimum_required(VERSION 3.12)
-project(ioda-data VERSION 2.9.0 DESCRIPTION "IODA Test Files")
+project(ioda-data VERSION 2.12.0 DESCRIPTION "IODA Test Files")
 
 find_package(ecbuild QUIET)
 include(ecbuild_system NO_POLICY_SCOPE)
